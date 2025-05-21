@@ -1,0 +1,35 @@
+{
+  "name": "vite-canvas",
+  "version": "1.0.0",
+  "description": "An HTML Canvas project template using Node JS and Vite build tool.",
+  "keywords": [
+    "vite",
+    "canvas",
+    "template"
+  ],
+  "homepage": "https://github.com/ajlagutan/vite-canvas#readme",
+  "bugs": {
+    "url": "https://github.com/ajlagutan/vite-canvas/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajlagutan/vite-canvas.git"
+  },
+  "license": "MIT",
+  "author": "https://github.com/ajlagutan",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sass": "^1.89.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "lil-gui": "^0.20.0"
+  }
+}
